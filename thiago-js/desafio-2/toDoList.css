@@ -1,0 +1,19 @@
+body {
+    font-size: 1em;
+    font-family: sans-serif;
+}
+
+table, tr, th, td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+table {
+    margin-top: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.exclusao-produto {
+    cursor: pointer;
+}
