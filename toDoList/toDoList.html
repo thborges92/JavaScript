@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="css/toDoList.css">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/all.css">
+    <title>To Do List</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col mx-auto col-md-8 mt-3 text-center">
+
+                <div class="alert text-capitalize feedback">
+                    Mensagem de ajuda para o usuário
+                </div>
+
+                <form id="itemForm" class="my-3">
+                    <h3 class="text-capitalize mb-4">to do list</h3>
+                    <div class="input-group">
+                        <input type="text" class="form-control text-capitalize" id="itemInput" placeholder="escreva algo...">
+                        <div class="input-group-append">
+                            <button class="btn btn-green text-capitalize" type="submit">Incluir na lista</button>
+                        </div>
+                    </div>
+                </form>
+
+                <div class="item-container">
+
+                    <div class="item-list my-5"></div>
+
+                    <button type="button" class="btn btn-green my-3 text-capitalize" id="clear-list">Limpar lista</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="toDoList.js"></script>
+
+</body>
+
+</html>

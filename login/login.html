@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <title>Login</title>
+</head>
+
+<body>
+
+    <div class="login">
+
+        <h2>Login to Web App</h2>
+
+        <form method="post" name="frmdados" id="frmdados">
+            <p>
+                <input type="text" name="txtlogin" id="txtlogin" value="" placeholder="Username or Email">
+                <span id="txtlogin-rule"></span>
+            </p>
+            <p>
+                <input type="password" name="txtpassword" id="txtpassword" value="" placeholder="Password">
+                <span id="txtpassword-rule"></span>
+            </p>
+            <p class="show_me">
+                <label>
+                    <input type="checkbox" name="show_me" id="show_me">Mostrar senha
+                </label>
+            </p>
+            <p class="submit"><input type="submit" id="btncommit" name="commit" value="Login"></p>
+        </form>
+
+    </div>    
+    
+    <script src="login.js"></script>
+
+</body>
+
+</html>
